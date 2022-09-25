@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <link rel="stylesheet" href="css/main.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="overlay hidden" id="overlay"></div>
+
+<header>
+ <div class="container">
+  <div class="left">
+    <img src="images/logo.svg" id="logo"/>
+    <ul class="ul" id="uull">
+      <img src="images/icon-close.svg" id="xxx"/>
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <div class="right">
+    <div class="becart hidden" id="beecart">0</div>
+    <img src="images/icon-cart.svg" id="cart"/>
+    <div class="caa hidden empty" id="car">
+      <h2>cart</h2>
+      <hr>
+      <div>Your cart is empty</div>
+    </div>
+    <div class="full hidden" id="carfull">
+      <h2>cart</h2>
+      <hr>
+      <div class="box">
+        <div class="parent">
+          <img src="images/image-product-1-thumbnail.jpg"/>
+          <div class="info">
+            <span class="title">Fall Limited Edition Sneakers</span>
+            <span class="group">
+              <span>$125.00</span>
+              <span id="hm">x0</span>
+              <span class="sum" id="suum">$0</span>
+            </span>
+          </div>
+          <img src="images/icon-delete.svg" class="del" id="dele"/>
+        </div>
+        <button>Checkout</button>
+      </div>
+    </div>
+    <img src="images/image-avatar.png" class="avatar"/>
+  </div>
+ </div>
+</header>
+<section>
+
+
+  <div class="container">
+   
+    <div class="new hidden" id="new">
+      <div class="x">
+        <img src="images/icon-close.svg" id="close"/>
+      </div>
+     <div class="main">
+      <img src="images/image-product-1.jpg" id="bigg"/>
+     </div>
+     <div class="arrow">
+      <div class="tr" id="next">
+        <img src="images/icon-next.svg" />
+      </div>
+      <div class="tl" id="prev">
+        <img src="images/icon-previous.svg" />
+      </div>
+     </div>
+     <div class="sp">
+      <img src="images/image-product-1.jpg" class="ss"/>
+      <img src="images/image-product-2.jpg" class="ss"/>
+      <img src="images/image-product-3.jpg" class="ss"/>
+      <img src="images/image-product-4.jpg" class="ss"/>
+     </div>
+    </div>
+
+
+    <div class="pic">
+
+
+      <div class="narrow">
+        <div class="ttrr" id="nextt">
+          <img src="images/icon-next.svg" />
+        </div>
+        <div class="ttll" id="prevv">
+          <img src="images/icon-previous.svg" />
+        </div>
+       </div>
+
+
+       
+      <div class="top">
+        <img src="images/image-product-1.jpg" id="big" />
+      </div>
+      <div class="bottom">
+        <div class="pics">
+          <div class="img">
+            <img src="images/image-product-1.jpg" class="s"/>
+          </div>
+          <div class="img">
+            <img src="images/image-product-2.jpg" class="s"/>
+          </div>
+          <div class="img">
+            <img src="images/image-product-3.jpg" class="s"/>
+          </div>
+          <div class="img">
+            <img src="images/image-product-4.jpg" class="s"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="text">
+      <small>Sneaker Company</small>
+      <h2>Fall Limited Edition Sneakers</h2>
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="spans">
+          <div class="sto">
+          <span>$125.00</span>
+          <span>50%</span>
+          </div>
+          <del>$250.00</del>
+      </div>
+      <footer>
+       <div class="id">
+        <div class="mp">
+          <img src="images/icon-minus.svg" id="minus"/>
+          <input type="number" min="0" value="0" id="inp"/>
+          <img src="images/icon-plus.svg" id="plus"/>
+        </div>
+       </div>
+       <button id="add">Add to cart</button>
+      </footer>
+    </div>
+  </div>
+</section>  
+  
+<script src="main.js"></script>
+</body>
+</html>
